@@ -1,0 +1,57 @@
+#!/bin/bash
+#SBATCH -J Afra
+#SBATCH -e Error.Afra
+#SBATCH -o Output.Afra
+#SBATCH -p std
+#SBATCH -n 1
+#SBATCH -c 24
+#SBATCH --time=0-5
+
+####################################################
+# This script must be ejecuted in a directory. 
+
+echo 'Import seqeunces correctly' 
+echo -e "\nCalculation starts at: `date`"
+
+# Load necessary modules 
+
+module load /home/modules/piri2/apps/conda/3 ;
+conda activate qiime2-2022.2 ;
+
+####################################################
+# Import sequences in qiime2
+
+qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path nasal-PE-manifest \
+  --output-path Paired-end-demux.qza \
+  --input-format PairedEndFastqManifestPhred33 ;
+
+echo '1. Data imported' ;
+
+###################################################################################################
+#Generate visualization
+
+qiime demux summarize \
+  --i-data Paired-end-demux.qza \
+  --p-n 100000 \
+  --o-visualization Paired-end-demux.qzv ;
+###################################################################################################
+qiime cutadapt trim-paired \
+  --i-demultiplexed-sequences Paired-end-demux.qza \
+  --p-cores 24 \
+  --p-front-f CCTACGGGNGGCWGCAG \
+  --p-front-r NACTACHVGGGTATCTAATCC \
+  --p-match-adapter-wildcards \
+  --p-match-read-wildcards \
+  --p-discard-untrimmed \
+  --o-trimmed-sequences Trimmed-demux.qza ;
+
+qiime demux summarize \
+  --i-data Trimmed-demux.qza \
+  --p-n 100000 \
+  --o-visualization Trimmed-demux.qzv ;
+
+
+
+echo -e "\nThe calculation ended at: `date`"

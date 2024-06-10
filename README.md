@@ -23,3 +23,15 @@ The main function of this script is to create a manifest to be able to import th
 SCRIPT 2.2 ( Manifest_Baro.tsv ) 
 
 This is an example of what a manifest for PairedEndFastqManifestPhred33 version one should look like. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SCRIPTS.3 
+
+SCRIPT 3.1 
+
+Demux example in .qza format, to view it you must use this link: https://view.qiime2.org/
+
+SCRIPT 3.2
+
+Trimmed Demux example in .qza format, both documents are from the same run to view it you must use this link: https://view.qiime2.org/

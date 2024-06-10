@@ -28,10 +28,12 @@ This is an example of what a manifest for PairedEndFastqManifestPhred33 version 
 
 SCRIPTS.3 
 
-SCRIPT 3.1 
+SCRIPT 3.1 ( Demux_C.qzv )
 
-Demux example in .qza format, to view it you must use this link: https://view.qiime2.org/
+Demux example in .qzv format, to view it you must use this link: https://view.qiime2.org/
 
-SCRIPT 3.2
+SCRIPT 3.2 ( Trimed_deux_C.qzv ) 
 
-Trimmed Demux example in .qza format, both documents are from the same run to view it you must use this link: https://view.qiime2.org/
+Trimmed Demux example in .qzv format, both documents are from the same run to view it you must use this link: https://view.qiime2.org/
+
+Study : CITA STUDY BARo 

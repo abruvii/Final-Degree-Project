@@ -18,4 +18,8 @@ SCRIPTS.2
 
 SCRIPT 2.1 ( Manifest_create.sh )
 
+The main function of this script is to create a manifest to be able to import the sequences. 
+
 SCRIPT 2.2 ( Manifest_Baro.tsv ) 
+
+This is an example of what a manifest for PairedEndFastqManifestPhred33 version one should look like. 

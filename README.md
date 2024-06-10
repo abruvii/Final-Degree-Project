@@ -1,3 +1,5 @@
+All the example scripts provided in this repository to illustrate the process are from the same study ( CITA ) 
+
 SCRIPT.1 ( Import_seqs_qiime.slm ) 
 
 IMPORT SEQUENCES QIIME SCRIPT : 
@@ -36,4 +38,3 @@ SCRIPT 3.2 ( Trimed_deux_C.qzv )
 
 Trimmed Demux example in .qzv format, both documents are from the same run to view it you must use this link: https://view.qiime2.org/
 
-Study : CITA STUDY BARo 

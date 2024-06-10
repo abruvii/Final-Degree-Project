@@ -10,4 +10,5 @@ Generates an initial visualization of the imported data.
 Trims adapter sequences from the data.
 Generates a post-trimming visualization.
 Prints completion messages and logs the end time.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,11 @@
+sample-id,absolute-filepath,direction
+2601-D21,/media/afra/Elements/C_runs/Baro/C_seq/2601-D21_S27_L001_R1_001.fastq.gz,forward
+2601-D21,/media/afra/Elements/C_runs/Baro/C_seq/2601-D21_S27_L001_R2_001.fastq.gz,reverse
+2617-D21,/media/afra/Elements/C_runs/Baro/C_seq/2617-D21_S28_L001_R1_001.fastq.gz,forward
+2617-D21,/media/afra/Elements/C_runs/Baro/C_seq/2617-D21_S28_L001_R2_001.fastq.gz,reverse
+2666-D21,/media/afra/Elements/C_runs/Baro/C_seq/2666-D21_S29_L001_R1_001.fastq.gz,forward
+2666-D21,/media/afra/Elements/C_runs/Baro/C_seq/2666-D21_S29_L001_R2_001.fastq.gz,reverse
+2698-D21,/media/afra/Elements/C_runs/Baro/C_seq/2698-D21_S30_L001_R1_001.fastq.gz,forward
+2698-D21,/media/afra/Elements/C_runs/Baro/C_seq/2698-D21_S30_L001_R2_001.fastq.gz,reverse
+2714-D21,/media/afra/Elements/C_runs/Baro/C_seq/2714-D21_S31_L001_R1_001.fastq.gz,forward
+2714-D21,/media/afra/Elements/C_runs/Baro/C_seq/2714-D21_S31_L001_R2_001.fastq.gz,reverse

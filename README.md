@@ -1,4 +1,5 @@
 SCRIPT.1 ( Import_seqs_qiime.slm ) 
+
 IMPORT SEQUENCES QIIME SCRIPT : 
 
 This script is a SLURM batch script designed to execute a series of bioinformatics commands using QIIME 2 on a high-performance computing cluster.
@@ -14,5 +15,7 @@ Prints completion messages and logs the end time.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 SCRIPTS.2
+
 SCRIPT 2.1 ( Manifest_create.sh )
+
 SCRIPT 2.2 ( Manifest_Baro.tsv ) 

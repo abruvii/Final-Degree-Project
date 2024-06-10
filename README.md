@@ -1,3 +1,5 @@
+IMPORT SEQUENCES QIIME SCRIPT : 
+
 This script is a SLURM batch script designed to execute a series of bioinformatics commands using QIIME 2 on a high-performance computing cluster.
 The script performs the following tasks:
 Sets up the job environment and resources using SLURM directives.
@@ -8,3 +10,4 @@ Generates an initial visualization of the imported data.
 Trims adapter sequences from the data.
 Generates a post-trimming visualization.
 Prints completion messages and logs the end time.
+------------------------------------------------------------------------------------------------------------------------------------------------------------

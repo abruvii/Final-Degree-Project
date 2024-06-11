@@ -1,7 +1,7 @@
 All the example scripts provided in this repository to illustrate the process are from the same study ( CITA ) 
 I also provided a folder called (Data_set.zip) where you can find all the samples used in the study. 
 
-SCRIPT.1 ( Import_seqs_qiime.slm ) 
+BLOCK.1 ( Import_seqs_qiime.slm ) 
 
 IMPORT SEQUENCES QIIME SCRIPT : 
 
@@ -17,7 +17,7 @@ Generates a post-trimming visualization.
 Prints completion messages and logs the end time.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-SCRIPTS.2
+BLOCK.2
 
 SCRIPT 2.1 ( Manifest_create.sh )
 
@@ -29,7 +29,7 @@ This is an example of what a manifest for PairedEndFastqManifestPhred33 version 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-SCRIPTS.3 
+BLOCK.3 
 
 SCRIPT 3.1 ( Demux_C.qzv )
 

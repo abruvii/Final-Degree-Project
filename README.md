@@ -1,5 +1,5 @@
 All the example scripts provided in this repository to illustrate the process are from the same study ( CITA ) 
-I also provided a folder called (Dataset) where you can find all the samples used in the study. 
+I also provided a folder called (Data_set.zip) where you can find all the samples used in the study. 
 
 SCRIPT.1 ( Import_seqs_qiime.slm ) 
 

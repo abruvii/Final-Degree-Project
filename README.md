@@ -43,4 +43,6 @@ Trimmed Demux example in .qzv format, both documents are from the same run to vi
 
 BLOCK.4 
 
-SCRIPT 4.1 (DADA
+SCRIPT 4.1 (DADA2.slm) 
+
+Script to perform the DADA2 process.

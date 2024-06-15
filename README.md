@@ -39,3 +39,8 @@ SCRIPT 3.2 ( Trimed_deux_C.qzv )
 
 Trimmed Demux example in .qzv format, both documents are from the same run to view it you must use this link: https://view.qiime2.org/
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BLOCK.4 
+
+SCRIPT 4.1 (DADA

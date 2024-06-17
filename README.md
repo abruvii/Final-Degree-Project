@@ -46,3 +46,15 @@ BLOCK.4
 SCRIPT 4.1 (DADA2.slm) 
 
 Script to perform the DADA2 process.
+
+SCRIPT 4.2 (rep_seq_C.qzv)
+
+Example of the Rep_seq obtained from the DADA2 obtained from the study. 
+
+SCRIPT 4.3 (Table_C.qzv)
+
+Example table obtained as an output from DADA2. 
+
+SCRIPT 4.4 (Denoising_stats_c.qzv) 
+
+Example from denoising stats obtained after the DADA2. 

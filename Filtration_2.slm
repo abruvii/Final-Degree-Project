@@ -1,0 +1,47 @@
+#!/bin/bash
+#SBATCH -J Afra
+#SBATCH -e err-dada2.Afra
+#SBATCH -o out-dada2.Afra
+#SBATCH -p std
+#SBATCH -n 1
+#SBATCH -c 24
+#SBATCH --time 0-4
+
+
+#This script is to perform DADA2 denoising and quality filtering steps
+#This script must be run from each sequence directory and will send denoising outputs to a common directory in order to proceed with merging.
+
+echo -e "\nThe calculation started at: `date`" ;
+
+# Loading modules
+
+module load /home/modules/piri2/apps/conda/3 ;
+
+conda activate qiime2-2022.2 ;
+
+###################################################################################################
+#Directory architecture
+
+################################################################################
+
+qiime taxa filter-table \
+  --i-table table-op_ref-85.qza \
+  --i-taxonomy taxonomy-sklearn.qza \
+  --p-exclude Archaea,Unassigned,mitochondria,chloroplast,Eukaryota \
+  --o-filtered-table final_table.qza;
+
+qiime taxa filter-seqs \
+  --i-sequences rep-seqs-op_ref-85.qza \
+  --i-taxonomy taxonomy-sklearn.qza \
+  --p-exclude Archaea,Unassigned,mitochondria,chloroplast,Eukaryota \
+  --o-filtered-sequences final_rep-seqs.qza ;
+  
+################################################################################
+
+
+
+echo 'Filtration finished and visualization created' ;
+
+echo 'Dont forget to check Filtered_files' ;
+
+echo -e "\nThe calculation ended at: `date`"    

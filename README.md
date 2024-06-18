@@ -1,5 +1,4 @@
-All the example scripts provided in this repository to illustrate the process are from the same study ( CITA ) 
-I also provided a folder called (Data_set.zip) where you can find all the samples used in the study. 
+All the example scripts provided in this repository to illustrate the process are from the same study (  ) 
 
 BLOCK.1 ( Import_seqs_qiime.slm ) 
 
@@ -55,11 +54,18 @@ SCRIPT 4.3 (Table_C.qzv)
 
 Example table obtained as an output from DADA2. 
 
+SCRIPT 4.4 (Denoising_stats_c.qzv)
+
+Example of the Denoising stats obtained after DADA2. 
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 BLOCK. 5 
 
 Filtration 1 
+SCRIPT 5.3 (Hits.qzv)
+
+SCRIPT 5.4 (Misses.qzv) 
 
 Filtration 2 
 

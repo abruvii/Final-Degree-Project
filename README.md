@@ -55,6 +55,27 @@ SCRIPT 4.3 (Table_C.qzv)
 
 Example table obtained as an output from DADA2. 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BLOCK. 5 
+
+Filtration 1 
+
+Filtration 2 
+
+Taxonimy examle 
+Taxonoly code 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BLOCK 6 
+R-studio codes 
+BOXPLOTS 
+RATIOS 
+SCATERNS 
+EXTRA(codes) 
+
+
 SCRIPT 4.4 (Denoising_stats_c.qzv) 
 
 Example from denoising stats obtained after the DADA2. 

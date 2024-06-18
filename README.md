@@ -1,4 +1,4 @@
-All the example scripts provided in this repository to illustrate the process are from the same study (  ) 
+All the example scripts provided in this repository to illustrate the process are from the same study (Blanco-Fuertes M, Sibila M, Franzo G, Obregon-Gutierrez P, Illas F, Correa-Fiz F, Aragón V. Ceftiofur treatment of sows results in long-term alterations in the nasal microbiota of the offspring that can be ameliorated by inoculation of nasal colonizers. Anim Microbiome. 2023 Oct 20;5(1):53. doi: 10.1186/s42523-023-00275-3. PMID: 37864263; PMCID: PMC10588210.) 
 
 BLOCK.1 ( Import_seqs_qiime.slm ) 
 

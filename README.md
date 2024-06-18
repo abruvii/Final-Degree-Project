@@ -62,15 +62,33 @@ Example of the Denoising stats obtained after DADA2.
 
 BLOCK. 5 
 
-Filtration 1 
-SCRIPT 5.3 (Hits.qzv)
+SCRIPT 5.1 (POST_DADA2.slm)
 
-SCRIPT 5.4 (Misses.qzv) 
+Post DADA2 filtration code that provides the Hits and the Misses files. 
 
-Filtration 2 
+SCRIPT 5.2 (Hits.qza)
 
-Taxonimy examle 
-Taxonoly code 
+Example of a Hits file obtained after the post dada2. 
+
+SCRIPT 5.4 (Misses.qza) 
+
+Example of a Misses file obtained after the post dada2. 
+
+SCRIPT 5.5 (Taxonomy.sh) 
+
+Script to calculate the taxonomy of the hits (Final_rep.seq)
+
+SCRIPT 5.6 (Filtration_2.slm) 
+
+Script from the second filtration to eliminate the unnecessary organisms. 
+
+SCRIPT 5.7 (Frequencia_relativa.sh)
+
+Script to obtain the relative frequency table. 
+
+SCRIPT 5.8 (table-rel-freq-l6.qza)
+
+Example for a relative frequency table at level 6. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -85,6 +103,3 @@ FOLDER.2 (R_useData.zip)
 Data used in the R-studio study.  
 
 
-SCRIPT 4.4 (Denoising_stats_c.qzv) 
-
-Example from denoising stats obtained after the DADA2. 

@@ -74,12 +74,15 @@ Taxonoly code
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-BLOCK 6 
-R-studio codes 
-BOXPLOTS 
-RATIOS 
-SCATERNS 
-EXTRA(codes) 
+BLOCK.6 
+
+FOLDER .1 (R_files.zip)
+
+In this file there are all the R files that I use during the study in the folder there are important.Rmd files to generate the final codes with the important figures. 
+
+FOLDER.2 (R_useData.zip)
+
+Data used in the R-studio study.  
 
 
 SCRIPT 4.4 (Denoising_stats_c.qzv) 
